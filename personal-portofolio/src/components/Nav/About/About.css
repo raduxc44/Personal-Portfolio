@@ -1,0 +1,35 @@
+.about {
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pic-typewriter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+.pic-container img {
+    background-color: white;
+    border-radius: 2rem;
+    width: 20rem;
+}
+#enjoy{
+    color: #3FA7D6;
+    margin: 0;
+}
+.typewriter-container {
+    color: #EF476F;
+    font-family: 'CONCERT-ONE';
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 4rem;
+}
+.about-text-container p {
+    color: white;
+    margin: 0;
+}
