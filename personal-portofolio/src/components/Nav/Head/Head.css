@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 10rem 0;
+    padding: 10rem 0 15rem 0;
 }
 h1 {
     color: #3FA7D6;
@@ -35,9 +35,10 @@ h2 {
     animation-delay: 1s;
 }
 .dev-neon-blink {
-    animation-name: dev-neon-blink;
-    animation-duration: 1.5s;
-    animation-delay: 4s;
+    animation-name: dev-neon-blink, dev-neon-blink-after;
+    animation-duration: 1.5s, 8s;
+    animation-delay: 4s, 10s;
+    animation-iteration-count: 1, infinite;
     animation-fill-mode: forwards;
 }
 @keyframes blue-neon-blink {
@@ -172,6 +173,64 @@ h2 {
     25% {
         color: black;
         text-shadow: none;
+    }
+    100% {
+        color: black;
+        text-shadow: none;
+    }
+}
+@keyframes dev-neon-blink-after {
+    37% {
+        color: black;
+        text-shadow: none;
+    }
+    39% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    40% {
+        color: black;
+        text-shadow: none;
+    }
+    41% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    95% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    96% {
+        color: black;
+        text-shadow: none;
+    }
+    98% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    99% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
     }
     100% {
         color: black;
