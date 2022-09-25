@@ -3,12 +3,18 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vh 0;
+    padding: 4vh 0;
+    border-bottom: 0.1rem solid #3FA7D6;
 }
 ul {
     margin: 0;
-    color: white;
+    color: #3FA7D6;
     display: flex;
     list-style: none;
     gap: 8vw;
+}
+li {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'CONCERT-ONE';
 }
