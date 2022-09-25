@@ -1,0 +1,14 @@
+nav {
+    background-color: rgba(95, 104, 113, 0.283);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0;
+}
+ul {
+    margin: 0;
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 8vw;
+}
