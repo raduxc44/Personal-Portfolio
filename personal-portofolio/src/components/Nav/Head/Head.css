@@ -14,7 +14,10 @@ h1 {
     0px -5px 20px, 0px 0px 2px,
     #3FA7D6 0px 0px 0px, 
     #3FA7D6 0px 0px 0.5rem,
-    #3FA7D6 0px 0px 0.03rem;    
+    #3FA7D6 0px 0px 0.03rem;
+    animation-name: blue-neon-blink;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
 }
 h2 {
     color: #EF476F;
@@ -27,4 +30,151 @@ h2 {
     #EF476F 0px 0px 0px, 
     #EF476F 0px 0px 0.03em,
     #EF476F 0px 0px 0.01rem;
+    animation-name: red-neon-blink;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+}
+.dev-neon-blink {
+    animation-name: dev-neon-blink;
+    animation-duration: 1.5s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
+@keyframes blue-neon-blink {
+    0% {
+        color: black;
+        text-shadow: none;
+    }
+    5% {
+        color: #3FA7D6;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+    10% {
+        color: black;
+        text-shadow: none;
+    }
+    15% {
+        color: #3FA7D6;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+    20%{
+        color: black;
+        text-shadow: none;
+    }
+    80% {
+        color: black;
+        text-shadow: none;
+    }
+    85% {
+        color: #3FA7D6;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+}
+@keyframes red-neon-blink {
+    0% {
+        color: black;
+        text-shadow: none;
+    }
+    5% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+    10% {
+        color: black;
+        text-shadow: none;
+    }
+    15% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+    20%{
+        color: black;
+        text-shadow: none;
+    }
+    25% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+    30% {
+        color: black;
+        text-shadow: none;
+    }
+    80% {
+        color: black;
+        text-shadow: none;
+    }
+    85% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #3FA7D6 0px 0px 0px, 
+        #3FA7D6 0px 0px 0.5rem,
+        #3FA7D6 0px 0px 0.03rem;
+    }
+}
+@keyframes dev-neon-blink {
+    0% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    5% {
+        color: black;
+        text-shadow: none;
+    }
+    10% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    15% {
+        color: black;
+        text-shadow: none;
+    }
+    20% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 18px, 0px 0px 0px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.03em,
+        #EF476F 0px 0px 0.01rem;
+    }
+    25% {
+        color: black;
+        text-shadow: none;
+    }
+    100% {
+        color: black;
+        text-shadow: none;
+    }
 }
