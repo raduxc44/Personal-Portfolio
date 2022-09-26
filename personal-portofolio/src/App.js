@@ -1,7 +1,8 @@
 import './App.css';
-import Head from './components/Nav/Head/Head';
-import Nav from './components/Nav/Nav/Nav';
-import About from './components/Nav/About/About';
+import Head from './components/Head/Head';
+import Nav from './components/Nav/Nav';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Head />
       <About />
+      <Projects />
     </div>
   );
 }

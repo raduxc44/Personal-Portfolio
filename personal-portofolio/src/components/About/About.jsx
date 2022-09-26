@@ -1,5 +1,5 @@
 import './About.css'
-import Profiledummy from '../../../images/abstract-user-flat-1.svg'
+import Profiledummy from '../../images/abstract-user-flat-1.svg'
 import TypeWriter from 'typewriter-effect'
 
 function About () {
