@@ -6,10 +6,15 @@
     justify-content: center;
 }
 .project-container img {
-    width: 35rem;
+    width: 32rem;
     filter: grayscale(100) blur(2px);
 }
+h3  {
+    margin: 2rem 0 0 0;
+}
 .project-container {
+    width: 40rem;
+    height: 40rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,11 +28,21 @@
     color: #EF476F;
 }
 .project-container img:hover {
-    filter: none;
-    width: 36rem;
+    animation-name: defilter;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 .last-projects {
     padding-top: 5rem;
     display: flex;
     gap: 2rem;
+}
+.first-project {
+    height: 30rem;
+}
+@keyframes defilter {
+    100% {
+        filter: none;
+        width: 36rem;
+    }
 }
