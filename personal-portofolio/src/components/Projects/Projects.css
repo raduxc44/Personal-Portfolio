@@ -1,0 +1,33 @@
+.projects-container {
+    padding: 20rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.project-container img {
+    width: 35rem;
+    filter: grayscale(100) blur(2px);
+}
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-family: 'CONCERT-ONE';
+    font-size: 3rem;
+    color: #3FA7D6;
+}
+.project-container:hover {
+    color: #EF476F;
+}
+.project-container img:hover {
+    filter: none;
+    width: 36rem;
+}
+.last-projects {
+    padding-top: 5rem;
+    display: flex;
+    gap: 2rem;
+}
