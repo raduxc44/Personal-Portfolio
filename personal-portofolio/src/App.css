@@ -9,3 +9,7 @@
   font-family: 'Concert-One';
   src:         url('./fonts/CONCERT-ONE.ttf')  format('truetype');
 }
+@font-face {
+  font-family: 'Noto-Sans';
+  src:         url('./fonts/NotoSansMono-Regular.ttf') format('truetype');
+}

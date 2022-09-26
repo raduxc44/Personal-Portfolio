@@ -1,5 +1,4 @@
 .about {
-    border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -14,7 +13,7 @@
 .pic-container img {
     background-color: white;
     border-radius: 2rem;
-    width: 20rem;
+    width: 22rem;
 }
 #enjoy{
     color: #3FA7D6;
@@ -29,7 +28,11 @@
     align-items: center;
     font-size: 4rem;
 }
-.about-text-container p {
+.about-text-container {
     color: white;
+    font-family: 'Noto-Sans';
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }

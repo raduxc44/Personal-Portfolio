@@ -29,6 +29,16 @@ function About () {
                 Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
                 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                 </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> 
+                Phasellus ex neque, suscipit a felis ut, lacinia accumsan odio.<br></br> 
+                Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> 
+                Phasellus ex neque, suscipit a felis ut, lacinia accumsan odio.<br></br> 
+                Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
             </div>
         </div>
     )
