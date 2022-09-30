@@ -6,6 +6,7 @@ import './Projects.css'
 function Projects () {
     return(
         <div className="projects-container">
+            <p>Projects</p>
             <div className='first-project'>
                 <div className="project-container">
                     <a href='https://todolist-r-ciocan.netlify.app//' target="new"><img src={Todo} alt="ToDo-List" /></a>

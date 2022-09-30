@@ -1,9 +1,15 @@
 .projects-container {
-    padding: 20rem 0;
+    padding: 12rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.projects-container p {
+    margin: 0 0 10rem 0;
+    font-size: 7rem;
+    color: #EF476F;
+    font-family: 'CONCERT-ONE';
 }
 .project-container img {
     width: 32rem;
