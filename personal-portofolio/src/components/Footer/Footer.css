@@ -1,0 +1,29 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-container h3 {
+    margin: 0 0 5rem 0;
+    color: #EF476F;
+    font-size: 3rem;
+    font-family: 'CONCERT-ONE';
+}
+footer {
+    background-color: rgba(95, 104, 113, 0.283);
+    border-top: 0.1rem solid #3FA7D6;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.icon {
+    color: white;
+    font-size: 3rem;
+}
+.icon:hover {
+    color: #EF476F;
+    cursor: pointer;
+}
