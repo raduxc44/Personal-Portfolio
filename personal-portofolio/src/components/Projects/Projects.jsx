@@ -5,7 +5,7 @@ import './Projects.css'
 
 function Projects () {
     return(
-        <div className="projects-container">
+        <div className="projects-container" id='projects'>
             <p>Projects</p>
             <div className='first-project'>
                 <div className="project-container">
