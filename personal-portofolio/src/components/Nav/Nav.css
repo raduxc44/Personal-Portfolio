@@ -1,15 +1,28 @@
 nav {
-    background-color: rgba(95, 104, 113, 0.283);
+    background-image: url('../../images/y-so-serious.png');
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 4vh 0;
     border-bottom: 0.1rem solid #3FA7D6;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #EF476F;
 }
 ul {
     margin: 0;
     color: #3FA7D6;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     list-style: none;
     gap: 8vw;
 }

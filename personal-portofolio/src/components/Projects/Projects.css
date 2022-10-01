@@ -1,33 +1,32 @@
 .projects-container {
-    padding: 12rem 0;
+    padding: 8rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .projects-container p {
-    margin: 0 0 10rem 0;
-    font-size: 7rem;
+    margin: 0 0 5rem 0;
+    font-size: 4rem;
     color: #EF476F;
     font-family: 'CONCERT-ONE';
 }
 .project-container img {
-    width: 32rem;
+    width: 40vw;
     filter: grayscale(100) blur(2px);
 }
 h3  {
     margin: 2rem 0 0 0;
 }
 .project-container {
-    width: 40rem;
-    height: 40rem;
+    width: 40vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     font-weight: 500;
     font-family: 'CONCERT-ONE';
-    font-size: 3rem;
+    font-size: 2rem;
     color: #3FA7D6;
 }
 .project-container:hover {
@@ -39,16 +38,19 @@ h3  {
     animation-fill-mode: forwards;
 }
 .last-projects {
-    padding-top: 5rem;
+    width: 100%;
+    padding-top: 2rem;
     display: flex;
-    gap: 2rem;
+    justify-content: center;
+    gap: 10vw;
 }
-.first-project {
-    height: 30rem;
+.first-project div {
+    width: 50vw;
+    padding-bottom: 2rem;
 }
 @keyframes defilter {
     100% {
         filter: none;
-        width: 40rem;
+        width: 42vw;
     }
 }
