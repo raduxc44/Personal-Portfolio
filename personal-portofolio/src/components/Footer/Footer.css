@@ -19,6 +19,20 @@ footer {
     align-items: center;
     gap: 3rem;
 }
+.contact-individual {
+    color: #3FA7D6;
+    font-size: 1.5rem;
+    height: 100%;
+    gap: 0.5vh;
+    font-family: 'CONCERT-ONE';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-individual p {
+    margin: 0;
+}
 .icon {
     color: white;
     font-size: 6vh;
@@ -34,5 +48,11 @@ footer {
     }
     .icon {
         font-size: 4vh;
+    }
+    .contact-individual {
+        font-size: 1rem;
+    }
+    footer{
+        gap: 2rem;
     }
 }

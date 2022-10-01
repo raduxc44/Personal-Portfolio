@@ -8,16 +8,28 @@ function Footer () {
             <h3>Contact</h3>
             <footer>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
-                    <i class="fa-brands icon fa-github"></i>
+                    <div className='contact-individual'>
+                        <i className="fa-brands icon fa-github"></i>
+                        <p>GitHub</p>
+                    </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
-                    <i class="fa-brands icon fa-linkedin-in"></i>
+                    <div className='contact-individual'>
+                        <i className="fa-brands icon fa-linkedin-in"></i>
+                        <p>LinkedIn</p>
+                    </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
-                    <i class="fa-solid icon fa-envelope"></i>
+                    <div className='contact-individual'>    
+                        <i className="fa-solid icon fa-envelope"></i>
+                        <p>Mail</p>
+                    </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
-                    <i class="fa-solid icon fa-file"></i>
+                    <div className='contact-individual'>
+                        <i className="fa-solid icon fa-file"></i>
+                        <p>Resume</p>
+                    </div>
                 </AnimationOnScroll>
             </footer>
         </div>
