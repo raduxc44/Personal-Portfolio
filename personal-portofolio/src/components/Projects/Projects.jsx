@@ -21,7 +21,7 @@ function Projects () {
             <div className='last-projects'>
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className='project-container'>
-                        <a href='https://phenomenal-klepon-22e2f5.netlify.app/' target="new"><img src={Tictactoe} alt="Tic-tac-toe" /></a>
+                        <a href='https://tictactoe-r-ciocan.netlify.app/' target="new"><img src={Tictactoe} alt="Tic-tac-toe" /></a>
                         <h3>Tic Tac Toe</h3>
                     </div>
                 </AnimationOnScroll>
