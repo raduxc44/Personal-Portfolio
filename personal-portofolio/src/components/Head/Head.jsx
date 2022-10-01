@@ -7,7 +7,7 @@ function Head () {
                 <h1>Radu Ciocan</h1>
                 <h2>Web dev<span className='dev-neon-blink'>eloper</span></h2>
             </header>
-            <a href='#about'><div className='arrow'><i class="fa-sharp fa-solid fa-arrow-down"></i></div></a>
+            <a href='#about'><div className='arrow'><i className="fa-sharp fa-solid fa-arrow-down"></i></div></a>
         </div>
     )
 }
