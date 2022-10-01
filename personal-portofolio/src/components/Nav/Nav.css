@@ -27,7 +27,7 @@ ul {
     gap: 8vw;
 }
 li {
-    font-size: 2rem;
+    font-size: 2.5vw;
     font-weight: 500;
     font-family: 'CONCERT-ONE';
 }
@@ -42,4 +42,15 @@ li {
     25% { transform: scale(0.9, 1.1); }
     50% { transform: scale(1.1, 0.9); }
     75% { transform: scale(0.95, 1.05); }
+}
+
+@media screen and (max-width : 1000px) {
+    li{
+        font-size: 4vw;
+    }
+}
+@media screen and (max-width : 500px) {
+    li{
+        font-size: 6vw;
+    }
 }

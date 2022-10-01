@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 10rem 0;
+    padding: 20vh 0 10vh 0;
 }
 h1 {
     color: #3FA7D6;
@@ -256,5 +256,28 @@ h2 {
     100% {
         color: black;
         text-shadow: none;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .header {
+        padding: 8vh 0;
+    }
+    .head{
+        gap: 0vh;
+    }
+    h1{
+        font-size: 20vw;
+    }
+    h2 {
+        font-size: 15vw;
+    }
+}
+@media screen and (max-width : 500px) {
+    .head {
+        gap: 25vh;
+    }
+    header {
+        padding: 16vh 0;
     }
 }

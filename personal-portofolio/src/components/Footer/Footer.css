@@ -27,3 +27,12 @@ footer {
     color: #EF476F;
     cursor: pointer;
 }
+
+@media screen and (max-width : 1000px) {
+    .footer-container h3 {
+        font-size: 4.5rem;
+    }
+    .icon {
+        font-size: 4vh;
+    }
+}
