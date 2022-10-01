@@ -1,7 +1,18 @@
 .about {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    padding-top: 2rem;
+}
+.about-main {
+    color: #EF476F;
+    font-family: 'CONCERT-ONE';
+    font-size: 4rem;
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
 }
 .pic-typewriter-container {
     display: flex;
