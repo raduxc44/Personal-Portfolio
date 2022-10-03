@@ -9,7 +9,7 @@ function Footer () {
             <footer>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
                     <div className='contact-individual'>
-                        <i className="fa-brands icon fa-github"></i>
+                        <a href='https://github.com/raduxc44' target="new"><i className="fa-brands icon fa-github"></i></a>
                         <p>GitHub</p>
                     </div>
                 </AnimationOnScroll>
@@ -21,7 +21,7 @@ function Footer () {
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='10' animateIn="animate__bounceIn">
                     <div className='contact-individual'>    
-                        <i className="fa-solid icon fa-envelope"></i>
+                        <a href='mailto:raduxc44@gmail.com'><i className="fa-solid icon fa-envelope"></i></a>
                         <p>Mail</p>
                     </div>
                 </AnimationOnScroll>
