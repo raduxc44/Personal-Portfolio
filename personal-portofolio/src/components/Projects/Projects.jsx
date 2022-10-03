@@ -27,7 +27,7 @@ function Projects () {
                 </AnimationOnScroll>
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className='project-container'>
-                        <a href='https://shiny-tartufo-e0690a.netlify.app/' target="new"><img src={EtchaSketch} alt="Etch-a-Sketch" /></a>
+                        <a href='https://etchasketch-r-ciocan.netlify.app/' target="new"><img src={EtchaSketch} alt="Etch-a-Sketch" /></a>
                         <h3>Etch-A-Sketch</h3>
                     </div>
                 </AnimationOnScroll>
