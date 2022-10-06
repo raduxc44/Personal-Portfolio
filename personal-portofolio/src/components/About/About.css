@@ -6,8 +6,14 @@
 }
 .about-main {
     color: #EF476F;
-    font-family: 'CONCERT-ONE';
-    font-size: 4rem;
+    font-family: 'Roadster';
+    font-size: 8rem;
+    margin: 3rem 0 0 0;
+    text-shadow:
+    0px -2.5px 5px, 0px 0px 1px,
+    #EF476F 0px 0px 0px, 
+    #EF476F 0px 0px 0.01rem,
+    #EF476F 0px 0px 0.01rem;
 }
 .about-content {
     display: flex;
@@ -20,11 +26,12 @@
     align-items: center;
     gap: 2rem;
     color: white;
+    width: 25rem;
 }
 .pic-container img {
     background-color: white;
     border-radius: 2rem;
-    width: 22rem;
+    width: 18rem;
 }
 #enjoy{
     color: #3FA7D6;
@@ -48,7 +55,59 @@
     gap: 2rem;
 }
 
+.category-animate {
+    animation-name: category-neon-blink;
+    animation-duration: 1s;
+}
+
+@keyframes category-neon-blink {
+    0% {
+        color: black;
+        text-shadow: none;
+    }
+    5% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.5rem,
+        #EF476F 0px 0px 0.03rem;
+    }
+    10% {
+        color: black;
+        text-shadow: none;
+    }
+    15% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.5rem,
+        #EF476F 0px 0px 0.03rem;
+    }
+    20%{
+        color: black;
+        text-shadow: none;
+    }
+    80% {
+        color: black;
+        text-shadow: none;
+    }
+    85% {
+        color: #EF476F;
+        text-shadow:
+        0px -5px 20px, 0px 0px 2px,
+        #EF476F 0px 0px 0px, 
+        #EF476F 0px 0px 0.5rem,
+        #EF476F 0px 0px 0.03rem;
+    }
+}
+
 @media screen and (max-width: 1000px) {
+    .about-main{
+        font-size: 4.5rem;
+        margin: 2rem 0 3rem;
+    }
     .pic-container img {
         width: 60vw;
     }
@@ -60,6 +119,7 @@
         flex-direction: column;
     }
     .about-text-container {
-        font-size: 3vw;
+        font-size: 2.8vw;
+        overflow: hidden;
     }
 }

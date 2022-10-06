@@ -7,7 +7,7 @@ import "animate.css/animate.min.css";
 function About () {
     return (
         <div className="about noselect" id='about'>
-            <p className='about-main'>About me</p>
+            <AnimationOnScroll offset={800} animateIn="animate__fadeIn"><p className='about-main'>About me</p></AnimationOnScroll>
             <div className='about-content'>
                 <div className="pic-typewriter-container">
                     <div className="pic-container">

@@ -8,7 +8,7 @@ import './Projects.css'
 function Projects () {
     return(
         <div className="projects-container" id='projects'>
-            <p className='noselect'>Projects</p>
+            <AnimationOnScroll offset={800} animateIn='animate__fadeIn'><p className='noselect'>Projects</p></AnimationOnScroll>
             <div className='first-project'>
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className="project-container">
