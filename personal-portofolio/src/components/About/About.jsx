@@ -1,12 +1,12 @@
 import './About.css'
-import Profiledummy from '../../images/abstract-user-flat-1.svg'
+import Profiledummy from '../../images/Profile-pic.jpeg'
 import TypeWriter from 'typewriter-effect'
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import "animate.css/animate.min.css";
 
 function About () {
     return (
-        <div className="about" id='about'>
+        <div className="about noselect" id='about'>
             <p className='about-main'>About me</p>
             <div className='about-content'>
                 <div className="pic-typewriter-container">
