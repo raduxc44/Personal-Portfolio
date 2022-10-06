@@ -3,7 +3,7 @@ import './Head.css'
 function Head () {
     return (
         <div className='head'>
-            <header id='home'>
+            <header className='noselect' id='home'>
                 <h1>Radu Ciocan</h1>
                 <h2>Web dev<span className='dev-neon-blink'>eloper</span></h2>
             </header>

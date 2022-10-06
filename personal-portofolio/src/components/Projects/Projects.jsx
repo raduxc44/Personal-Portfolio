@@ -8,12 +8,12 @@ import './Projects.css'
 function Projects () {
     return(
         <div className="projects-container" id='projects'>
-            <p>Projects</p>
+            <p className='noselect'>Projects</p>
             <div className='first-project'>
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className="project-container">
                     <a href='https://todolist-r-ciocan.netlify.app//' target="new"><img src={Todo} alt="ToDo-List" /></a>
-                    <h3>ToDo List</h3>
+                    <h3 className='noselect'>ToDo List</h3>
                     </div>
                 </AnimationOnScroll>
                 
@@ -22,13 +22,13 @@ function Projects () {
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className='project-container'>
                         <a href='https://tictactoe-r-ciocan.netlify.app/' target="new"><img src={Tictactoe} alt="Tic-tac-toe" /></a>
-                        <h3>Tic Tac Toe</h3>
+                        <h3 className='noselect'>Tic Tac Toe</h3>
                     </div>
                 </AnimationOnScroll>
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className='project-container'>
                         <a href='https://etchasketch-r-ciocan.netlify.app/' target="new"><img src={EtchaSketch} alt="Etch-a-Sketch" /></a>
-                        <h3>Etch-A-Sketch</h3>
+                        <h3 className='noselect'>Etch-A-Sketch</h3>
                     </div>
                 </AnimationOnScroll>
             </div>
