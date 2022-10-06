@@ -58,9 +58,24 @@ h2 {
     width: 4.5rem;
     height: 4.5rem;
     font-size: 2.5rem;
+    border: 0.2rem solid #EF476F;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.59);
+}
+.arrow i{
+    text-shadow: 2px solid yellow;
 }
 .arrow:hover {
-    font-size: 3rem;
+    animation-name: arrow-change;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes arrow-change {
+    100% {
+        font-size: 3rem;
+        background-color: #EF476F;
+        color: #3FA7D6;
+        border: 0.2rem solid #3FA7D6;
+    }
 }
 @keyframes blue-neon-blink {
     0% {
