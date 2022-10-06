@@ -20,7 +20,7 @@ footer {
     gap: 3rem;
 }
 .contact-individual {
-    color: #3FA7D6;
+    color: #e7e7e7;
     font-size: 1.5rem;
     height: 100%;
     gap: 0.5vh;
@@ -29,17 +29,28 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    pointer-events: auto;
 }
 .contact-individual p {
     margin: 0;
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.59);
 }
 .icon {
     color: white;
     font-size: 6vh;
+    text-shadow: 6px 6px 3px rgba(0,0,0,0.59);
 }
 .icon:hover {
-    color: #EF476F;
     cursor: pointer;
+    animation-name: gelatine, icon-change;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes icon-change {
+    100% {
+        color: #EF476F;
+    }
 }
 
 @media screen and (max-width : 1000px) {
