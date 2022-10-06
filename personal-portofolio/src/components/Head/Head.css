@@ -2,7 +2,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 1080px;
     height: 100vh;
 }
 header {
@@ -274,12 +273,19 @@ h2 {
     }
 }
 
+@media screen and (min-width : 1000px) {
+    .head {
+        min-height: 1000px;
+    }
+}
+
 @media screen and (max-width : 1000px) {
     .header {
         padding: 8vh 0;
     }
     .head{
         gap: 0vh;
+        height: 100vh;
     }
     h1{
         font-size: 20vw;
