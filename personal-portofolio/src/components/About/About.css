@@ -44,7 +44,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 .about-text-container {
     color: white;
@@ -107,6 +107,9 @@
     .about-main{
         font-size: 4.5rem;
         margin: 2rem 0 3rem;
+    }
+    .pic-typewriter-container {
+        width: 100%;
     }
     .pic-container img {
         width: 60vw;
