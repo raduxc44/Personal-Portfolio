@@ -11,12 +11,14 @@ function Nav () {
 
     return(
     <nav>
-        <ul>
-            <a onClick={navAnimateWhenPressed} href="#home"><li className='noselect'>Home</li></a>
-            <a onClick={navAnimateWhenPressed} href="#about"><li className='noselect'>About</li></a>
-            <a onClick={navAnimateWhenPressed} href="#projects"><li className='noselect'>Projects</li></a>
-            <a onClick={navAnimateWhenPressed} href="#footer"><li className='noselect'>Contact</li></a>
-        </ul>
+        <div className='white-filler'>
+            <ul>
+                <a onClick={navAnimateWhenPressed} href="#home"><li className='noselect'>Home</li></a>
+                <a onClick={navAnimateWhenPressed} href="#about"><li className='noselect'>About</li></a>
+                <a onClick={navAnimateWhenPressed} href="#projects"><li className='noselect'>Projects</li></a>
+                <a onClick={navAnimateWhenPressed} href="#footer"><li className='noselect'>Contact</li></a>
+            </ul>
+        </div>
     </nav>
 )}
 

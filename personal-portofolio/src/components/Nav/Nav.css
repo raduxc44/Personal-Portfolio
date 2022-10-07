@@ -3,11 +3,19 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4vh 0;
+    height: 12%;
     border-bottom: 0.1rem solid #3FA7D6;
     width: 100%;
     position: fixed;
     z-index: 2;
+}
+.white-filler {
+    background-color: rgba(95, 104, 113, 0.283);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 a {
     text-decoration: none;
@@ -30,6 +38,7 @@ li {
     font-size: 2.5vw;
     font-weight: 500;
     font-family: 'CONCERT-ONE';
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.59);
 }
 
 .gelatine {
