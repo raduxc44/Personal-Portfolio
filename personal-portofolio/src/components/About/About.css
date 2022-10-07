@@ -18,7 +18,10 @@
 .about-content {
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 80%;
     gap: 5vw;
+    padding: 5% 0 10% 0;
 }
 .pic-typewriter-container {
     display: flex;
@@ -26,7 +29,7 @@
     align-items: center;
     gap: 2rem;
     color: white;
-    width: 25rem;
+    width: 25%
 }
 .pic-container img {
     background-color: white;
@@ -36,6 +39,7 @@
 #enjoy{
     color: #3FA7D6;
     margin: 0;
+    font-size: 3.5rem;
 }
 .typewriter-container {
     color: #EF476F;
@@ -44,17 +48,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    width: 100%;
 }
 .about-text-container {
     color: white;
     font-family: 'Noto-Sans';
-    margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
 }
-
+.about-text-container p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    font-size: 1.3em;
+}
+.about-span {
+    width: 10%;
+}
 .category-animate {
     animation-name: category-neon-blink;
     animation-duration: 1s;
@@ -111,9 +126,6 @@
     .pic-typewriter-container {
         width: 100%;
     }
-    .pic-container img {
-        width: 60vw;
-    }
     .typewriter-container {
         font-size: 3rem;
     }
@@ -124,5 +136,14 @@
     .about-text-container {
         font-size: 2.8vw;
         overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pic-container img {
+        width: 60vw;
+    }
+    .typewriter-container {
+        font-size: 2.5rem;
     }
 }

@@ -15,36 +15,28 @@ function About () {
                     <img src={Profiledummy} alt="ProfilePic" />
                     </AnimationOnScroll>
                     </div>
-                    <div className='typewriter-container'>
-                        <p id='enjoy'>I ENJOY</p>
-                        <>
+                </div>
+                <AnimationOnScroll animateOnce='true' offset={400} animateIn="animate__bounceIn">
+                    <div className='about-text-container'>
+                        <AnimationOnScroll className='typewriter-container' animateOnce='true' offset={700} animateIn="animate__bounceIn"><div className='typewriter-container'>
+                            <p id='enjoy'>I ENJOY</p>
+                            <>
                             <TypeWriter
                                 options={{
-                                    strings: ['Pizza', 'Swimming', 'Reading', 'Videogames'],
+                                    strings: ['Swimming', 'Learning', 'Hiking', 'Videogames', 'Movies'],
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 100
                                 }}
                             />
-                        </>
-                    </div>
-                </div>
-                <AnimationOnScroll animateOnce='true' offset={400} animateIn="animate__bounceIn">
-                    <div className='about-text-container'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> 
-                        Phasellus ex neque, suscipit a felis ut, lacinia accumsan odio.<br></br> 
-                        Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> 
-                        Phasellus ex neque, suscipit a felis ut, lacinia accumsan odio.<br></br> 
-                        Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        </p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> 
-                        Phasellus ex neque, suscipit a felis ut, lacinia accumsan odio.<br></br> 
-                        Cras non urna id sem viverra gravida. Aliquam vel est vel libero euismod imperdiet.<br></br> 
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </>
+                        </div>
+                        </AnimationOnScroll>
+                        <p> 
+                            &emsp;&emsp;&emsp;&emsp;A curious and ambitious individual, always eager to dive into new technological
+                            concepts, acquire knowledge of these assets and aggregate them to provide
+                            solutions for real world problems. Devoted to earn professional experience
+                            alongside an information technology enterprise.
                         </p>
                     </div>
                 </AnimationOnScroll>
