@@ -15,7 +15,7 @@ function Footer () {
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='25' animateIn="animate__bounceIn">
                     <div className='contact-individual'>
-                        <a href="https://www.linkedin.com/in/radu-ciocan-6a057922a/" target={'new'}><i className="fa-brands icon fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/radu-ciocan-6a057922a/" target='new'><i className="fa-brands icon fa-linkedin-in"></i></a>
                         <p>LinkedIn</p>
                     </div>
                 </AnimationOnScroll>
@@ -27,7 +27,7 @@ function Footer () {
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='25' animateIn="animate__bounceIn">
                     <div className='contact-individual'>
-                        <a href='https://drive.google.com/file/d/1zKZYB22ZFlmfYTgUUHo6PUYj6dtycvbP/view' target= "new"><i className="fa-solid icon fa-file"></i></a>
+                        <a href='https://drive.google.com/file/d/1dTFAFfducs5ZYlKHscF_4Lwteziyjnel/view' target= "new"><i className="fa-solid icon fa-file"></i></a>
                         <p id='contact-text'>Resume</p>
                     </div>
                 </AnimationOnScroll>
