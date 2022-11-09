@@ -21,7 +21,7 @@ function Footer () {
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='25' animateIn="animate__bounceIn">
                     <div className='contact-individual'>    
-                        <a href='mailto:raduxc44@gmail.com'><i className="fa-solid icon fa-envelope"></i></a>
+                        <a href='mailto:radu.a.ciocan@gmail.com'><i className="fa-solid icon fa-envelope"></i></a>
                         <p>Mail</p>
                     </div>
                 </AnimationOnScroll>
