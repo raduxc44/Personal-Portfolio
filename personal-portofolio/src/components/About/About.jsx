@@ -33,10 +33,15 @@ function About () {
                         </div>
                         </AnimationOnScroll>
                         <p> 
-                            &emsp;&emsp;&emsp;&emsp;A curious and ambitious individual, always eager to dive into new technological
-                            concepts, acquire knowledge of these assets and aggregate them to provide
-                            solutions for real world problems. Devoted to earn professional experience
-                            alongside an information technology enterprise.
+                            &emsp;&emsp;&emsp;&emsp;Hi! I'm <span className='first-name'>Radu</span>, a self-taught web developer 
+                            driven by a desire to create meaningful and engaging online experiences
+                            through effective design and development.<br></br>
+                            &emsp;&emsp;&emsp;&emsp;Despite lacking a formal computer science degree 
+                            or prior relevant work experience, I have persistently invested time and 
+                            effort into improving my skills and knowledge through both personal projects
+                            and self-directed learning.<br></br>
+                            &emsp;&emsp;&emsp;&emsp;I am eager to continue learning and growing as a professional web developer, 
+                            as well as using my current skillset and knowledge to make a positive impact on a team.
                         </p>
                     </div>
                 </AnimationOnScroll>

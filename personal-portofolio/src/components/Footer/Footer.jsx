@@ -27,7 +27,7 @@ function Footer () {
                 </AnimationOnScroll>
                 <AnimationOnScroll offset='25' animateIn="animate__bounceIn">
                     <div className='contact-individual'>
-                        <a href='https://drive.google.com/file/d/1s644Asklsk-kUimYZg78cjxnL4yuIpJZ/view' target= "new"><i className="fa-solid icon fa-file"></i></a>
+                        <a href='https://drive.google.com/file/d/1SNpb17Mi92tyma3xFjm5PW2j1J4BW1xc/view' target= "new"><i className="fa-solid icon fa-file"></i></a>
                         <p id='contact-text'>Resume</p>
                     </div>
                 </AnimationOnScroll>
