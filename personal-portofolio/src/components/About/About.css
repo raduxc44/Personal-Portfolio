@@ -60,12 +60,16 @@
     gap: 2rem;
 }
 .about-text-container p {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    font-size: 1.3em;
+    text-align: center;
+    line-height: 1.7;
+    /* width: 75%; */
+    font-size: 1.1em;
+}
+.first-name {
+    font-size: 1.2em;
+    color: #EF476F;
+    font-family: 'CONCERT-ONE';
+    font-weight: 100;
 }
 .about-span {
     width: 10%;
@@ -120,8 +124,8 @@
 
 @media screen and (max-width: 1000px) {
     .about-main{
-        font-size: 4.5rem;
-        margin: 2rem 0 3rem;
+        /* font-size: 4.5rem; */
+        margin: 2rem 0 0 0;
     }
     .pic-typewriter-container {
         width: 100%;
@@ -134,16 +138,25 @@
         flex-direction: column;
     }
     .about-text-container {
-        font-size: 2.8vw;
+        font-size: 2.0vw;
         overflow: hidden;
     }
 }
-
 @media screen and (max-width: 500px) {
+    .about-main {
+        font-size: 6rem;
+    }
     .pic-container img {
         width: 60vw;
     }
     .typewriter-container {
-        font-size: 2.5rem;
+        font-size: 2.0rem;
+    }
+    #enjoy {
+        font-size: 2rem;
+    }
+    .about-text-container {
+        font-size: 3vw;
+        overflow: hidden;
     }
 }

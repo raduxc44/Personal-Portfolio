@@ -59,9 +59,6 @@ footer {
 }
 
 @media screen and (max-width : 1000px) {
-    .contact-main {
-        font-size: 4.5rem;
-    }
     .icon {
         font-size: 4vh;
     }
@@ -70,5 +67,10 @@ footer {
     }
     footer{
         gap: 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact-main {
+        font-size: 6rem;
     }
 }
