@@ -13,7 +13,6 @@ function Projects () {
                 <AnimationOnScroll animateOnce='true' offset={100} animateIn="animate__backInUp">
                     <div className="project-container">
                     <a href='https://liquid-rc.netlify.app/' target="new"><img src={Liquid} alt="Liquid" /></a>
-                    <h6 className='noselect'>[Work In Progress]</h6>
                     <h3 className='noselect'>Liquid</h3>
                     </div>
                 </AnimationOnScroll>
